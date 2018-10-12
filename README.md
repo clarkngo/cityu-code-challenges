@@ -43,44 +43,44 @@ For now stay in YOUR_FIRST_NAME branch
 
 add a file with YOUR_FIRST_NAME.md in test folder
 
---  the git workflow --
+## --  the git workflow --
 
 `git add .`
 `git commit -m 'YOUR_FIRST_NAME readme'`
 `git push origin YOUR_FIRST_NAME`
 
-##Go to GitHub
+## Go to GitHub
 
-###Do compare and pull request 
+### Do compare and pull request 
 ![](/images/full-compare-request.png)
 
-###Click 
+### Click 
 ![](/images/btn-compare-request.png)
 
-###Next
+### Next
 ![](/images/full-pull-request.png)
 
-###Double check if master <- YOUR_FIRST_NAME 
+### Double check if master <- YOUR_FIRST_NAME 
 ![](/images/btn-base-branch.png)
 
-###Click
+### Click
 ![](/images/btn-pull-request.png)
 
-###Merge pull request
+### Merge pull request
 ![](/images/full-merge-pull-request.png)
 
-###Click
+### Click
 ![](/images/btn-merge-pull-request.png)
 
-###Click confirm merge
+### Click confirm merge
 
 ![](/images/confirm-merge.png)
 
 ## update our local
-Switch to master branch
+### Switch to master branch
 `git branch checkout master`
 
-Update our local master branch by pulling
+### Update our local master branch by pulling
 `git pull`
 
--- end of git / github workflow --
+## -- end of git / github workflow --
