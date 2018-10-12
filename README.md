@@ -92,4 +92,7 @@ add a file with YOUR_FIRST_NAME.md in test folder
 ### Update our local master branch by pulling
 `git pull`
 
+### Go back to your branch and start coding again
+`git checkout clark`
+
 ## -- end of git / github workflow --
