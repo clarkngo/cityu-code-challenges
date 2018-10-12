@@ -85,6 +85,9 @@ add a file with YOUR_FIRST_NAME.md in test folder
 
 ![](/images/confirm-merge.png)
 
+# Wait for another user to approve your pull request!
+# Don't update local master until your pull request is merged in github
+
 ## update our local
 ### Switch to master branch
 `git branch checkout master`
