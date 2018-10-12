@@ -20,18 +20,18 @@ Using HTTPS (fine to use too, but might keep bugging you for user and password)
 `https://github.com/clarkngo/cityu-code-challenges.git`
 
 
-### Let's practice doing git branch
-In your terminal
+## Let's practice doing git branch
+### In your terminal
 
 `git checkout -b 'YOUR_FIRST_NAME'`
 
 (for example:`git checkout -b 'clark'` )
 
-To check what branch you are currently using
+### To check what branch you are currently using
 
 `git branch`
 
-To switch branches
+### (Not needed to execute) To switch branches
 
 `git checkout master`
 
@@ -46,7 +46,9 @@ add a file with YOUR_FIRST_NAME.md in test folder
 ## --  the git workflow --
 
 `git add .`
+<br />
 `git commit -m 'YOUR_FIRST_NAME readme'`
+<br />
 `git push origin YOUR_FIRST_NAME`
 
 ## Go to GitHub
