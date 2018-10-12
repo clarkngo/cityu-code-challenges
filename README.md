@@ -59,7 +59,7 @@ add a file with YOUR_FIRST_NAME.md in test folder
 ### Do compare and pull request 
 ![](/images/full-compare-request.png)
 
-### If not appearing
+### If not appearing, make sure you are on YOUR branch
 ![](/images/github-switch-branch.png)
 
 
