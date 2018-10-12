@@ -93,6 +93,6 @@ add a file with YOUR_FIRST_NAME.md in test folder
 `git pull`
 
 ### Go back to your branch and start coding again
-`git checkout clark`
+`git checkout YOUR_FIRST_NAME`
 
 ## -- end of git / github workflow --
