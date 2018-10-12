@@ -53,8 +53,13 @@ add a file with YOUR_FIRST_NAME.md in test folder
 
 ## Go to GitHub
 
+
 ### Do compare and pull request 
 ![](/images/full-compare-request.png)
+
+### If not appearing
+![](/images/github-switch-branch.png)
+
 
 ### Click 
 ![](/images/btn-compare-request.png)
