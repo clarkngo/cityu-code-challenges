@@ -45,6 +45,8 @@ add a file with YOUR_FIRST_NAME.md in test folder
 
 ## --  the git workflow --
 
+## Go to "test" folder
+
 `git add .`
 <br />
 `git commit -m 'YOUR_FIRST_NAME readme'`
