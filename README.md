@@ -41,11 +41,11 @@ OR
 
 For now stay in YOUR_FIRST_NAME branch
 
-add a file with YOUR_FIRST_NAME.md in test folder
-
 ## --  the git workflow --
 
 ## Go to "test" folder
+
+add a file with YOUR_FIRST_NAME.md in test folder
 
 `git add .`
 <br />
