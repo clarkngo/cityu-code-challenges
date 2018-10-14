@@ -16,14 +16,12 @@ A greed roll is scored as follows:
 
 
 ## Examples:
-
+```
  score([1,1,1,5,1]) => 1150 points
-<br/>
  score([2,3,4,6,2]) => 0 points
-<br/>
  score([3,4,5,3,3]) => 350 points
-<br/>
  score([1,5,1,2,4]) => 250 points
+```
 ## Your goal is to write the score method.
 
 More scoring examples are given in the tests below:
