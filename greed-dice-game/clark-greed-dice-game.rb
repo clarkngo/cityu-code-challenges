@@ -28,28 +28,33 @@ def score(dice)
       count1s -= 3
     end
     if count2s >= 3
+      count2s -= 3
       sum += 2 * 100
     end
     if count3s >= 3
+      count3s -= 3
       sum += 3 * 100
     end    
     if count4s >= 3
+      count4s -= 3
       sum += 4 * 100
     end    
     if count5s >= 3
       sum += 5 * 100
-      count5s =- 3
+      count5s -= 3
     end    
     if count6s >= 3
       sum += 6 * 100
+      count6s -= 3
     end          
   end     
+
   if count1s == 1
     sum += 100
   elsif count1s == 2
     sum += 200
   end
-
+  puts count5s
   if count5s == 1
     sum += 50
   elsif count5s == 2
