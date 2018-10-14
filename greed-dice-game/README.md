@@ -24,9 +24,11 @@ A greed roll is scored as follows:
  score([3,4,5,3,3]) => 350 points
 <br/>
  score([1,5,1,2,4]) => 250 points
+## Your goal is to write the score method.
 
 More scoring examples are given in the tests below:
 
+```
 class AboutScoringProject < Neo::Koan
   def test_score_of_an_empty_list_is_zero
     assert_equal 0, score([])
@@ -69,5 +71,4 @@ class AboutScoringProject < Neo::Koan
   end
 
 end
-
-## Your goal is to write the score method.
+```
