@@ -3,22 +3,24 @@
  * @return {string}
  */
 var longestPalindrome = function(s) {
+    if (s.length <= 1) return s;
     let palindromeIndexArrA = [];
     const strArr = s.split('');
     
     const strArrLength = strArr.length;
-    // The first iteration looks for two and three palindromes
+    // The first iteration looks for one and two palindromes
     strArr.forEach((char, index) => {
+        // one char palindrome
+        palindromeIndexArrA.push([index, index]);
+        // two chars palindrome
         if ((index + 1) < strArrLength && checkPalindrome([char, strArr[index + 1]])) {
             palindromeIndexArrA.push([index, index + 1]);
         }
-        if ((index - 1) >= 0 && checkPalindrome([strArr[index - 1], char, strArr[index + 1]])) {
-            palindromeIndexArrA.push([index - 1, index + 1]);
-        }
     });
     // console.log('palindromeIndexArrA', palindromeIndexArrA);
-    
-    while(palindromeIndexArrA.length !== 0) {
+    if (palindromeIndexArrA.length === 0) return '';
+    let hasIndexs = true;
+    while(hasIndexs) {
         const palindromeIndexArrB = [];
         palindromeIndexArrA.forEach((e, index) => {
             const start = e[0] - 1;
@@ -28,6 +30,7 @@ var longestPalindrome = function(s) {
             }
         });
         if (palindromeIndexArrB.length !== 0) palindromeIndexArrA = palindromeIndexArrB;
+        else hasIndexs = false;
     }
     // console.log('last palindromeIndexArrA', palindromeIndexArrA);
     // The index array could have two different length array remaind.
@@ -46,6 +49,5 @@ var checkPalindrome = function(strArr) {
 }
 
 /*
-LeetCode still gives me a time limit exceeded. But I tested it in JSbin and it works good.
-The same test case just takes about 100ms
+The same test case just takes about 100ms when the brute force solution gives me a 10S.
 */
