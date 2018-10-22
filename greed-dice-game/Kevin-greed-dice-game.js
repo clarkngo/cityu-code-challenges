@@ -10,7 +10,7 @@ const checkPoint = diceArr => {
     if (index === 1) {
       if (numMap[index] >= 3) {
         totalPoint += 1000; // Calculate three one
-         totalPoint += (numMap[index] - 3) * 100; // Add rest of one up
+        totalPoint += (numMap[index] - 3) * 100; // Add rest of one up
       } else totalPoint += numMap[index] * 100;
     } else if (index === 5) { // Add five
       if (numMap[index] >= 3) {
