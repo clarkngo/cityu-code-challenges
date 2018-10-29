@@ -1,5 +1,4 @@
 import java.math.BigInteger;
-import java.util.*;
 
 // Brute force
 public class Fibonacci {
