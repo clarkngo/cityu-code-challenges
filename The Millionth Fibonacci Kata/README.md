@@ -12,3 +12,5 @@ Your algorithm must output the exact integer answer, to full precision. Also, it
 HINT I: Can you rearrange the equation fib(n + 2) = fib(n + 1) + fib(n) to find fib(n) if you already know fib(n + 1) and fib(n + 2)? Use this to reason what value fib has to have for negative values.
 
 HINT II: See https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.4
+
+The original url: https://www.codewars.com/kata/the-millionth-fibonacci-kata/train/java
