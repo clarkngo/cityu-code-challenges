@@ -1,4 +1,5 @@
-## Manhattan Distance / Taxicab geometry is a form of geometry in which the usual distance function or metric of Euclidean geometry is replaced by a new metric in which the distance between two points is the sum of the absolute differences of their Cartesian coordinates. 
+## Manhattan Distance / Taxicab geometry 
+is a form of geometry in which the usual distance function or metric of Euclidean geometry is replaced by a new metric in which the distance between two points is the sum of the absolute differences of their Cartesian coordinates. 
 
 Create a grid (i.e. 5 x 5 )
 
