@@ -6,4 +6,9 @@ function removeChar(str){
     return newStr;
   };
 
+// best practice
+function removeChar(str) {
+  return str.slice(1, -1);
+}
+
 console.log(removeChar("hello"));
