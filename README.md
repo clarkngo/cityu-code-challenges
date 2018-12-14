@@ -57,33 +57,33 @@ add a file with YOUR_FIRST_NAME.md in test folder
 
 
 ### Do compare and pull request 
-![](/images/full-compare-request.png)
+![](assets/images/full-compare-request.png)
 
 ### If not appearing, make sure you are on YOUR branch
-![](/images/github-switch-branch.png)
+![](assets/images/github-switch-branch.png)
 
 
 ### Click 
-![](/images/btn-compare-request.png)
+![](assets/images/btn-compare-request.png)
 
 ### Next
-![](/images/full-pull-request.png)
+![](assets/images/full-pull-request.png)
 
 ### Double check if master <- YOUR_FIRST_NAME 
-![](/images/btn-base-branch.png)
+![](assets/images/btn-base-branch.png)
 
 ### Click
-![](/images/btn-pull-request.png)
+![](assets/images/btn-pull-request.png)
 
 ### Merge pull request
-![](/images/full-merge-pull-request.png)
+![](assets/images/full-merge-pull-request.png)
 
 ### Click
-![](/images/btn-merge-pull-request.png)
+![](assets/images/btn-merge-pull-request.png)
 
 ### Click confirm merge
 
-![](/images/confirm-merge.png)
+![](assets/images/confirm-merge.png)
 
 # Don't update local master until your pull request is merged in github
 
