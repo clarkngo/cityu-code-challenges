@@ -16,3 +16,8 @@ function isPrime(num) {
         return true;
   }
   
+// best practice
+function isPrime(num) {
+    for (var i = 2; i < num; i++) if (num % i == 0) return false;
+    return num >= 2; 
+  }
