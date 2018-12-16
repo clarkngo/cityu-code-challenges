@@ -1,0 +1,6 @@
+function longestPalindrome(str) {
+
+  
+}
+
+longestPalindrome("");
