@@ -1,5 +1,5 @@
 function toWeirdCase() {
-
+  
 }
 
 toWeirdCase();
