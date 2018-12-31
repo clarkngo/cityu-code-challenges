@@ -1,10 +1,25 @@
 # cityu-code-challenges
 
-First challenge: https://www.codewars.com/kata/bit-counting
+## install git version control
+
+You can check your current version of Git by running the `git --version` command in a terminal (Linux, Mac OS X) or command prompt (Windows).
+
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+
+## install visual studio code
+https://code.visualstudio.com/
+
+## create github account
+https://github.com/
+
+
+## solve the challenge online or offline
+First challenge: https://www.codewars.com/kata/5262119038c0985a5b00029f/train/javascript
 
 Choose any programming language to solve this challenge
 
-## start here!
+## have git and github account? start here! this will teach you the git workflow
 clone this repo!
 In your terminal
 
@@ -84,8 +99,6 @@ add a file with YOUR_FIRST_NAME.md in test folder
 ### Click confirm merge
 
 ![](assets/images/confirm-merge.png)
-
-# Don't update local master until your pull request is merged in github
 
 ## update our local
 ### Switch to master branch
