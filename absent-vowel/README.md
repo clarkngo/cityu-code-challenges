@@ -1,4 +1,5 @@
 ## Absent vowel
+Source: https://www.codewars.com/kata/56414fdc6488ee99db00002c/train/javascript
 
 Your job is to figure out the index of which vowel is missing from a given string.
 
@@ -21,5 +22,3 @@ There is no need for string validation and every sentence given will contain all
 Sample Tests: 
 Test.assertEquals(absentVowel("John Doe hs seven red pples under his bsket"), 0);
 Test.assertEquals(absentVowel("Bb Smith sent us six neatly arranged range bicycles"), 3);
-
-Source: https://www.codewars.com/kata/56414fdc6488ee99db00002c/train/javascript
