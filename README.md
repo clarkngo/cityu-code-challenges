@@ -18,8 +18,9 @@ https://github.com/
 
 
 ## Skip this first if its your first time proceed to next step
-Always `git pull` to get the latest changes.
-### solve the challenge online or offline
+Always go to `master` branch with `git checkout master` then `git pull` to get the latest changes.
+
+Solve the challenge online or offline
 First challenge: https://www.codewars.com/kata/5262119038c0985a5b00029f/train/javascript
 
 Choose any programming language to solve this challenge
@@ -41,7 +42,7 @@ For Windows, example:
 echo clark-is-number-a-prime.js
 ```
 
-
+## NEXT STEP
 ## have git and github account? start here! this will teach you the git workflow
 clone this repo!
 In your terminal
