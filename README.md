@@ -17,10 +17,30 @@ https://code.visualstudio.com/
 https://github.com/
 
 
-## solve the challenge online or offline
+## Skip this first if its your first time proceed to next step
+Always `git pull` to get the latest changes.
+### solve the challenge online or offline
 First challenge: https://www.codewars.com/kata/5262119038c0985a5b00029f/train/javascript
 
 Choose any programming language to solve this challenge
+
+Go to `is-number-a-prime` folder.
+```
+cd is-number-a-prime
+```
+
+Create a file for your solution
+
+For MacOs, example:
+```
+touch clark-is-number-a-prime.js
+```
+
+For Windows, example:
+```
+echo clark-is-number-a-prime.js
+```
+
 
 ## have git and github account? start here! this will teach you the git workflow
 clone this repo!
