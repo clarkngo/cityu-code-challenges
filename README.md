@@ -1,5 +1,8 @@
 # cityu-code-challenges
 
+## want to suggest for improvements?
+Create a new issue [here](https://github.com/clarkngo/cityu-code-challenges/issues).
+
 ## install git version control
 
 You can check your current version of Git by running the `git --version` command in a terminal (Linux, Mac OS X) or command prompt (Windows).
