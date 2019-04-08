@@ -11,3 +11,14 @@ public class SuzukiStairs
        return totalInOneYear * 20;
     }
 }
+
+// other solution
+import java.util.Arrays;
+
+public class Kata
+{
+    public static long stairsIn20(int[][] stairs)
+    {
+        return 20 * Arrays.stream(stairs).flatMapToInt(arr -> Arrays.stream(arr)).sum();
+    }
+}
